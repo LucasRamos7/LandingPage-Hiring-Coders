@@ -7,6 +7,8 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
 .logo{
     float:  left;
     vertical-align: top;
@@ -31,16 +33,20 @@ html{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
+    
 }
 
 .area-produtos{
     display: grid;
     grid-template-columns:  auto
                             auto;
-    width: 80vh;
+    width: 100%;
     height: auto;
-    justify-content: space-between;
+    justify-content: center;
     align-content: space-between;
+    align-self: center;
+    justify-self: center;
     
 }
 
