@@ -150,4 +150,13 @@ input{
 .texto-footer{
     margin-left: 10px;
     margin-right: 10px;
+    
+}
+
+.links{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    
 }
