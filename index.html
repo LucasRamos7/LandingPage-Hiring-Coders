@@ -8,6 +8,25 @@
 
     <link href="./css/styles.css" rel="stylesheet" />
 
+    <style>
+        @media (max-width: 600px){
+            .area-produtos{
+                grid-template-columns: auto;
+                
+            }
+
+            .card-produto{
+                max-height: 20vh;
+                width: 20vh;
+            }
+
+            .texto-produto{
+                font-size: 8px;
+            }
+
+            
+        }
+    </style>
     
 
 </head>
@@ -30,7 +49,7 @@
 
             <div class="card-produto">
                 <img id="songbook"  src="assets/songbook.jpg" alt='instrumentos' title="Instrumentos Musicais" />
-                <p class="texto-produto">SONGBOOKS!!!</p>
+                <p id="texto-songbook" class="texto-produto">SONGBOOKS!!!</p>
             </div>
 
             <div class="card-produto">

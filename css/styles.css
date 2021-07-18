@@ -7,8 +7,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
-
 .logo{
     float:  left;
     vertical-align: top;
@@ -71,10 +69,18 @@ html{
 }
 
 #songbook{
-    width: 25ex;
-    margin: 10px;
+    width: 75%;
+    height: 80%;
+    position: relative;
     align-self: center;
-    justify-self: center;
+    bottom: 5%;
+    
+}
+
+#texto-songbook{
+    position: relative;
+    bottom: 100%;
+    margin: 0;
 }
 
 .texto-produto{
