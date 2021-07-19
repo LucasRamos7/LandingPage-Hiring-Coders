@@ -158,5 +158,9 @@ input{
     margin-right: 10px;
     text-decoration: none;
     color: black;
-    
+}
+
+.links:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
